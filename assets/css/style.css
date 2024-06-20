@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e0f1e7;  
+}
+.main-background{
+    width: 100%;
+    height: 100vh;
+    background-color:  #e0f1e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+}
+.form-container{
+    background-color: #fff;
+    width: auto;
+    /* border: 2px solid green; */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 40px #d7d7d7;
+}
+.main-form-box label{
+    font-size: 12px;
+    font-weight: 600;
+    color: #606060;
+}
+
+/* Inner box styles content */
+
+.main-form-box h1{
+    font-size: 20px;
+    font-weight: 800;
+}
+/* input 1 */
+
+.main-form-box .form-name1{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    padding: 20px 0;
+}
+.main-form-box .form-name1 label{
+    display: flex;
+    justify-content:space-between;
+    width:max-content;
+    font-size: 12px;
+    font-weight: 600;
+    color: #606060;
+}
+
+/* Require Start * Icon colors for all */
+
+.main-form-box .form-name1 label span{
+    color:#0c7d69;
+    margin-left: 5px;
+    font-weight: 900;
+}
+.main-form-box .form-name2 label span{
+    color:#0c7d69;
+    margin-left: 5px;
+    font-weight: 900;
+}
+.main-form-box .form-name3 label span{
+    color:#0c7d69;
+    margin-left: 5px;
+    font-weight: 900;
+}
+.main-form-box .form-name4 label span{
+    color:#0c7d69;
+    margin-left: 5px;
+    font-weight: 900;
+}
+
+/* require Star * icon colors  for all end */
+
+
+.main-form-box .form-name1 input{
+    border: 1px solid #cbcbcb ;
+    border-radius: 5px;
+    padding: 10px;
+}
+/* .main-form-box div label{
+    display: block;
+    width: 50%;
+}
+.main-form-box:nth-child(2) div{
+    width: 100%;
+    padding-left: 20px;
+    border: 2px solid red;
+} */
+
+/* Input 2 */
+
+.main-form-box .form-name2 label{
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #606060;
+}
+.main-form-box .form-name2 input{
+    border: 1px solid #cbcbcb ;
+    border-radius: 5px;
+    padding: 10px;
+    width:95%;
+    margin-bottom: 20px;
+}
+
+/* Radia button CSS */
+
+.main-form-box .form-name3{
+    display: flex-box;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    padding: 10px 0;
+}
+/* .main-form-box .form-name3 .query-label{
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #606060;
+} */
+/* .main-form-box .form-name3 div{
+    display: flex;
+    border: 1px solid #cbcbcb;
+    padding: 10px;
+    border-radius: 5px;
+    row-gap: 10px;
+} */
+.main-form-box .form-name3 .radio-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 5px;
+}
+.main-form-box .form-name3 .radio-buttons div{
+    width: 50%;
+    column-gap: 20px;
+    border: 1px solid #cbcbcb;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* textare input */
+ 
+.main-form-box .form-name4 label{
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #606060;
+    padding-top: 20px;
+}
+.main-form-box .form-name4 textarea{
+    border: 1px solid #cbcbcb ;
+    border-radius: 5px;
+    padding: 10px;
+    width:95%;
+    margin-bottom: 20px;
+    height: 80px;
+}
+
+/* Check box */
+.checkbox{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+/* Submit button */
+
+.submit-button{
+    width: 95%;
+    padding: 10px;
+    text-align: center;
+    background-color: #0c7d69;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+}

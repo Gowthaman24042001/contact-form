@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact form - FrontEnd mentor</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main-background">
+      <div class="form-container">
+        <form action="" class="main-form-box">
+          <h1>Contact us</h1>
+          <div class="form-name1">
+            <div>
+              <label for="text">First Name <span>*</span></label>
+              <input type="text" required />
+            </div>
+            <div>
+              <label for="text">Last Name <span>*</span></label>
+              <input type="text" required />
+            </div>
+          </div>
+          <div class="form-name2">
+            <label for="text"> Email Address <span>*</span></label>
+            <input type="text" required />
+          </div>
+          <div class="form-name3">
+            <label for="text" class="query-label"
+              >Query type<span>*</span></label
+            >
+            <div class="radio-buttons">
+              <div>
+                <input type="radio" value=" Genreal Enquiry" />
+                <label for="general Inquiry">General Enquiry</label>
+              </div>
+              <div>
+                <input type="radio" value="Support Request" />
+                <label for="Support request"> Support Request</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-name4">
+            <label for="textarea">Message<span>*</span></label>
+            <textarea name="textarea" id=""></textarea>
+          </div>
+          <div class="checkbox">
+             <input type="checkbox">
+             <label for="checkbox"> I concent to being contacted by the team</label>
+          </div>
+          <div class="submit-button">
+            submit
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
